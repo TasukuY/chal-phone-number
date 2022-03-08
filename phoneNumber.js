@@ -15,3 +15,7 @@ console.log(createPhoneNumber(testArr));
 //     }
 //     return phonenumber;
 // }
+
+const phoneNumber = arr => arr.join('').replace(/(\d{3})(\d{3})(\d{4})/, "($1) $2-$3")
+
+console.log(testArr.unshift(100));
